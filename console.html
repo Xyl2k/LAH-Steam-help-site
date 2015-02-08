@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Document sans nom</title>
+<style type="text/css">
+<!--
+body,td,th {
+	color: #FFFFFF;
+}
+body {
+	background-color: #000000;
+}
+.Style1 {color: #9999FF}
+.Style2 {
+	color: #990000
+}
+.Style3 {
+	font-family: Fixedsys;
+	font-size: 24px;
+}
+-->
+</style></head>
+
+<body>
+<div align="center" class="Style3">Faire apparaitre la console</div>
+<p><a href="HELP.html">&lt;&lt; Back</a></p>
+<h2 class="Style2">Première méthode</h2>
+<p>Allez dans &quot;options&quot; (ou &quot;settings&quot; selon la langue), allez dans  l'onglet &quot;clavier&quot;, cliquer sur &quot;avancé...&quot; puis cochez &quot;activer  console développeur ~&quot;, comme ceci :</p>
+<p align="center"><img src="console1.PNG" width="512" height="407" /></p>
+<p align="left">Voila, normalement, vous devez avoir  activer la console, et bien non !<br />
+  Vous pourrez toujours tapez avec un  marteau sur la touche &quot;~&quot;, la console n'apparaîtras jamais. <br />
+  Maintenant, je vais vous dire comment on fait pour réellement afficher cette console. <br />
+<br />
+Quand vous avez cochez &quot;activer console développeur ~&quot;, quitter le jeu,  allez dans votre poste de travail &gt; C: &gt;Programs Files &gt; Steam  &gt; SteamApps &gt; SourceMods [ou votre pseudo (cela dépens du mod)]  &gt; [votre mod] &gt; cfg. <br />
+<br />
+Vous trouverez un fichier qui s'appelle &quot;config&quot;, cliquez de droite dessus &gt; ouvrir avec &gt; Bloc-notes. <br />
+<br />
+Cherchez cette ligne : </p>
+<p align="left" class="Style1">bind &quot;9&quot; &quot;slot9&quot;<br />
+  bind &quot;`&quot; &quot;toggleconsole&quot;<br />
+bind &quot;d&quot; &quot;+moveright&quot;</p>
+<p align="left">Vous voyez la ligne du milieu ? Toggleconsole, c'est la console.<br />
+  Et la  lettre entre les guillemets, c'est la lettre qui l'active, vous pouvez  alors mettre ce que vous voulez. <br />
+  <br />
+  <br />
+  Une fois fois que vous avez mis la touche que vous voulez (moi je mets  toujours la lettre &quot;P&quot;, a vous de voir), enregistrez (ctrl+S ou Fichier  &gt; Enregistrer) puis fermez. <br />
+  <br />
+Relancer half life, appuyez sur la touche que vous aviez mis entre  guillemets tout à l'heure, et là, la console apparaît comme par magie  !! <br />
+<br />
+Voila maintenant vous pouvez afficher la console</p>
+<h2 align="left" class="Style2">Seconde méthode</h2>
+<p align="left">Il existe une autre méthode pour afficher la console si vous n'avez pas trop envi de toucher aux fichiers &quot;.cfg&quot;.<br />
+  <br />
+Ouvrez Steam, dans l'onglet &quot;Mes jeux&quot;. Faites un clic droit sur half life 2 Deathmach, et cliquez sur &quot;propriétés&quot;.<br />
+Maintenant, cliquez sur &quot;définir les options de lancement...&quot;<br />
+<br />
+Dans la nouvelle fenêtre qui s'affiche, taper &quot;-console&quot;.</p>
+<p align="center"><img src="console2.PNG" width="516" height="400" /></p>
+<p align="left">Maintenant, vous pouvez aller dans votre jeu, et la console est là, même si vous ne jouez pas.<br />
+  <br />
+Seulement il y a un hic, si vous fermez la console, vous n'aurez aucun  moyen de la faire réapparaître, sauf quitter et redémarrer half life.<br />
+<br />
+Dans ce cas vous pouvez utiliser un &quot;bind&quot;, pour afficher la console  avec la lettre &quot;p&quot; (par exemple), taper : bind &quot;p&quot; &quot;toggleconsole&quot; dans  la console.<br />
+<br />
+Ainsi quand vous presserez la touche &quot;p&quot;, la console apparaîtra. </p>
+<p align="left">&nbsp;</p>
+<p align="right">Tutoriel créé par BjO du Site Du Zero<br />
+Source: http://www.siteduzero.com/tutoriel-3-31154-afficher-la-console-dans-un-mod-source.html</p>
+</body>
+</html>
+
